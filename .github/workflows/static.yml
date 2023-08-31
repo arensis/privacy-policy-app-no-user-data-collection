@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 20.x
       - name: Creating clean public folder
-      - run: | 
+        run: | 
           npm install -g sass
           sass assets/styles/scss:assets/styles/css
           mkdir public
