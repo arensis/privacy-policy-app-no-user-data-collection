@@ -35,7 +35,7 @@ jobs:
           npm install -g sass
           sass assets/styles/scss:assets/styles/css
           mkdir public
-          cp assets ./public
+          cp -r assets ./public
           cp index.html ./public
           cd public/assets
           rm -rf sass
