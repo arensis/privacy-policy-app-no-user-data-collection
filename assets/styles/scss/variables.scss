@@ -1,0 +1,70 @@
+$screen-xs-max: 360px;
+$screen-sm-max: 680px;
+$screen-md-max: 768px;
+$screen-lg-max: 1160px;
+$screen-xl-max: 1560px;
+$screen-xxl-max: 2048px;
+
+$instagram-color: #ca00a3;
+$facebook-color: #1877F2;
+$bandcamp-color: #477987;
+$twitter-color: rgb(29, 155, 240);
+$spotify-color: #1ED760;
+$youtube-color: #FF0000;
+$soundcloud-color: #f50;
+
+//Style guide Hostalia
+$primary-link-color: #4B4B7E;
+$primary-link-hover-color: #FE4C72;
+$primary-link-focus-color: #521a26;
+$secondary-link-color: #fff;
+$secondary-link-hover-color: $primary-link-hover-color;
+$secondary-link-focus-color: $primary-link-focus-color;
+$primary-background-color: $primary-link-color;
+$secondary-background-color: #fff;
+$border-color: #FE4C72;
+$primary-text-color: $primary-link-color;
+$secondary-text-color: $secondary-background-color;
+$subtitle-primary-background: #afb8f4;
+
+@mixin xs {
+  @media (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: #{$screen-xs-max}) and (max-width: #{$screen-sm-max}) {
+      @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-sm-max}) and (max-width: #{$screen-md-max}){
+      @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-md-max}) and (max-width: #{$screen-lg-max}){
+      @content;
+  }
+}
+
+@mixin xls {
+  @media (min-width: #{$screen-lg-max}) and (max-width: #{$screen-xl-max}) {
+      @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-max}) and (max-width: #{$screen-xxl-max}) {
+      @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$screen-xxl-max}) {
+      @content;
+  }
+}

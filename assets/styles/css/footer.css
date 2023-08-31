@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background-color: #527f88; }
+  footer .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    footer .social-icons a {
+      display: flex;
+      align-items: center;
+      font-size: 1rem !important;
+      text-decoration: none; }
+      footer .social-icons a svg, footer .social-icons a span {
+        fill: #d5e1f3; }
+      footer .social-icons a:hover {
+        color: #FE4C72 !important; }
+        footer .social-icons a:hover svg, footer .social-icons a:hover span {
+          transition: all 0.6s ease-out;
+          fill: #d5e1f3 !important; }
+      footer .social-icons a svg {
+        width: 25px;
+        height: auto;
+        margin: 4px; }
+
+@media screen and (min-width: 500px) and (max-width: 980px) and (orientation: landscape) {
+  footer .social-icons a {
+    font-size: 1.5rem !important; } }
+
+/*# sourceMappingURL=footer.css.map */

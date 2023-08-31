@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400px"
+   height="400px"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="arm-small-logo.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1137"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.83580301"
+     inkscape:cx="-41.277669"
+     inkscape:cy="312.27454"
+     inkscape:window-width="1464"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1132">
+    <linearGradient
+       id="linearGradient3107"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#0d7b96;stop-opacity:1;"
+         offset="0"
+         id="stop3105" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#d6e3f4;fill-opacity:0.98718;stroke-width:1.36849"
+       d="M 198.81798,4.1676596 59.559313,100.70364 59.008878,297.84025 197.71715,397.9328 344.13141,297.33217 343.58098,102.22789 Z"
+       id="path1820"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="mix-blend-mode:normal;fill:#0d7b96;fill-opacity:1;fill-rule:nonzero;stroke-width:1.36849"
+       d="M 197.71715,3.1514966 250.5584,111.3734 l -98.5269,132.10185 83.11485,90.43897 -36.87877,63.00243 26.97104,-63.00243 -86.41745,-89.93088 107.88423,-133.6261 z"
+       id="path2130" />
+    <path
+       style="fill:#d2e3e8;fill-opacity:0.98718;stroke-width:1.36849"
+       d="m 198.95747,3.7177461 51.46516,107.4597739 -98.25169,131.84781 83.57039,91.39849 -37.75362,62.8722 145.95468,-100.23624 V 101.25779 Z"
+       id="path5405" />
+  </g>
+</svg>

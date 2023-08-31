@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  padding-left: 20px;
+  margin-top: 28px;
+  background-color: #326974d9; }
+  header .section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    margin-bottom: 42px;
+    margin-top: 10px; }
+    header .section-header img {
+      width: 5rem;
+      height: auto;
+      margin-top: 4vh;
+      margin-right: 7px; }
+  header .section-name {
+    padding-top: 2rem;
+    font-size: 2.6rem;
+    font-family: "PaytoneOne Regular";
+    color: #d5e1f3; }
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .section-header .section-name {
+    font-size: 2.4rem; } }
+@media screen and (max-width: 373px) and (orientation: landscape) {
+  .section-header {
+    height: 45vh !important; } }
+@media screen and (min-width: 374px) and (max-width: 700px) and (orientation: landscape) {
+  .section-header {
+    height: 45vh !important; } }
+
+/*# sourceMappingURL=header.css.map */

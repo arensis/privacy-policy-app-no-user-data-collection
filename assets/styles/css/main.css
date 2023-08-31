@@ -1,0 +1,17 @@
+main {
+  position: relative;
+  z-index: 1;
+  top: -65px; }
+  main div.container {
+    padding-top: 65px;
+    margin-bottom: -65px;
+    min-height: 75vh; }
+    main div.container .section-body {
+      display: flex;
+      flex-direction: column;
+      margin: 4vh 4vw;
+      background-color: white;
+      color: #0d5b6f;
+      font-size: 1rem; }
+
+/*# sourceMappingURL=main.css.map */
