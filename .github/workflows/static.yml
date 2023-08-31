@@ -37,9 +37,9 @@ jobs:
           mkdir public
           cp assets ./public
           cp index.html ./public
-          cd assets
+          cd public/assets
           rm -rf sass
-          cd ..
+          cd ../..
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
